@@ -1,0 +1,34 @@
+.root {
+  text-align: center;
+}
+.firstApp {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 10px clr-gray200;
+  font-weight: bold;
+  font: size 2rem;
+  color: inherit;
+  
+  transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+
+  hover: background-color grey;
+
+  active: transform scale(0.9);
+}
+
+.negative {
+  color: red;
+  margin: 10px 600px;
+}
+
+.positive {
+  color: green;
+}
+
+.textfield{
+  text-align:center;
+}
